@@ -12,7 +12,7 @@ var km_an;
 var year;
 
 document.getElementById("home_button").addEventListener("click", function() {
-    window.location.href = "index.html";
+    window.location.href = "https://github.com/CornierQuentin/BioethanolCalculator/blob/main/docs/index.html";
 })
 
 var dateDisassembled = localStorage.getItem('date').split('-');
