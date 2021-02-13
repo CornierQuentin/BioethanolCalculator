@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+    <title>Conversion au Bioéthanol E85</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/util.css">
+      <link rel="stylesheet" type="text/css" href="css/result.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="bg-contact3">
+      <div class="container-contact3">
+        <div class="top_container">
+          <div class="home_conatiner">
+            <input type="image" class="home_button" id="home_button" src="./css/Images/house-308936_960_720.png">
+          </div>
+          <div class="title_container">
+            <h1 class="why_title">Pourquoi convertir sa voiture essence au Bioéthanol ?</h1>
+          </div>
+        </div>
+
+        <hr class="horizontal_separator">
+
+        <div class="bottom_conatainer">
+          <div class="wrap-contact3">
+            <form class="contact3-form validate-form">
+              <span class="contact3-form-title">
+                Récapitulatif :
+              </span>
+    
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="date_display">Date</p>
+              </div>
+  
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="age_display">Age</p>            
+              </div>
+    
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="km_display">Kilométrage</p>
+              </div>
+  
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="km/an_display">Kilomètre par an</p>
+              </div>
+  
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="conso_display">Consommation</p>
+              </div>
+  
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="conso/an_display">Litre par an</p>
+              </div>
+  
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="carbone_display">Bilan carbone</p>            
+              </div>
+  
+              <div class="wrap-input3 validate-input">
+                <p class="input3" id="carbone/an_display">kg de Carbone par an</p>            
+              </div>
+  
+              <div class="container-contact3-form-btn" hidden>
+                <button type="button" class="contact3-form-btn" id="submit_form">
+                  Calculer
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="text_container">
+            <h2>Écologique<br><br></h2>
+            <p>Le Bioéthanol est une énergie renouvelable, car issue de l’agriculture. Sa production est donc moins néfaste pour l’environnement que celle d’un carburant classique. En effet, il est avéré qu’un véhicule roulant au bioéthanol rejette 75% de carbone en moins, que le même véhicule roulant à l’essence.<br><B>Vous pouvez donc espérer passer d'un rejet de <p id="rejet" class="rejet">200</p><p id="conversion"> ==> </p><p id="rejet_baisse" class="rejet_baisse">50</p></B><br><br></p>
+            <h2>Économique<br><br></h2>
+            <p>le Bioéthanol, en plus d’être écologique, est bien moins onéreux à la pompe que l’essence classique. Nous considérons de plus que le prix moyen de l’essence est d’environ 1,43€/L pour l’E5 SP98, de 1,36€/L pour l’E5 SP95 et de 0.68€/L pour l’E85 Bioéthanol. On obtient donc un prix à l’année de <p id="E5SP98">363€/an</p><p> avec l’E5 SP98, de </p><p id="E5SP95">345€/an</p><p> avec l’E5 SP95 et de </p><p id="E85">172€/an</p><p> avec l’E85 Bioéthanol.</p><br><p><B>Vous pouvez donc espérer économiser au minimum </p><p id="cout_baisse" class="rejet_baisse">50</p></B></p>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p class="text_copyright">© Quentin CORNIER</p>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div id="dropDownSelect1"></div>
+    
+    <script type="module" src="./result.js"></script>
+  </body>
+</html>
