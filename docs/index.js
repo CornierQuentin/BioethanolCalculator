@@ -28,6 +28,6 @@ document.getElementById("submit_form").addEventListener("click", function() {
         localStorage.setItem('conso', conso);
         localStorage.setItem('carbone', carbone);
 
-        window.location.href = "result.html";
+        window.location.href = "https://github.com/CornierQuentin/BioethanolCalculator/blob/main/docs/result.html";
     }
 })
