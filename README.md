@@ -83,10 +83,3 @@ Application développée par :
 ## License
 
 Ce projet est sous licence ``AGPL - GNU Affero General Public License v3.0`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
