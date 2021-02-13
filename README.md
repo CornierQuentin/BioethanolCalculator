@@ -1,6 +1,6 @@
 # Bioéthanol Calculator
 
-Une application développé en Electron JS permettant de calculer ses gains pour une conversion d'un véhicule au bioéthanol E85
+Une application développée en Electron JS permettant de calculer ses gains pour une conversion d'un véhicule au bioéthanol E85
 
 ## Pour Commencer
 
@@ -58,7 +58,7 @@ Ensuite il faut créer un package en installant [Inno Setup](https://jrsoftware.
 
 Et en ouvrant le code .iss, disponible dans Electron_JS/Inno_Setup, dans le logiciel et ensuite il faut exécuter ce code, qui créera un fichier .exe sur le bureau.
 
-## Développer avcec
+## Développer avec
 
 * [Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown) - VS Code comme IDE de développement et pour la rédaction des markdown avec le README.md basé sur le template GitHub :
   * [README-Template.md](https://gist.github.com/JulienRAVIA/1cc6589cbf880d380a5bb574baa38811/) - Template en Français créé par [@JulienRAVIA](https://gist.github.com/JulienRAVIA/)
