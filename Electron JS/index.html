@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+    <title>Conversion au Bioéthanol E85</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/util.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="bg-contact3">
+      <div class="container-contact3">
+        <div class="title_container">
+          <h1 class="why_title">Pourquoi convertir sa voiture essence au Bioéthanol ?</h1>
+        </div>
+        <div class="wrap-contact3">
+          <form class="contact3-form validate-form">
+            <span class="contact3-form-title">
+              Calculer ses gains
+            </span>
+  
+            <div class="wrap-input3 validate-input" data-validate="Une date est requise">
+              <label class="input3" for="date">Date d'achat *</label>
+              <input class="input3" type="date" name="Date" id="date">
+              <span class="focus-input3"></span>
+            </div>
+  
+            <div class="wrap-input3 validate-input" data-validate = "Un kilométrage est requis">
+              <input class="input3" type="number" name="Kilométrage" placeholder="Kilométrage (km) *" id="km">
+              <span class="focus-input3"></span>
+            </div>
+  
+            <div class="wrap-input3 validate-input" data-validate = "Une consommation est requise">
+              <input class="input3" type="number" name="Consommation" placeholder="Consommation (L/100km) *" id="conso"></input>
+              <span class="focus-input3"></span>
+            </div>
+
+            <div class="wrap-input3 validate-input">
+              <input class="input3" type="number" name="Blian carbone" placeholder="Bilan carbone (g/km)" id="carbone">
+              <span class="focus-input3"></span>
+            </div>
+
+            <div>
+              <p class="input3">Remplir les champs obligatoire *</p>
+            </div>
+  
+            <div class="container-contact3-form-btn">
+              <button type="button" class="contact3-form-btn" id="submit_form">
+                Calculer
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div id="dropDownSelect1"></div>
+    
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>
